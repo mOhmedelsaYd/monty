@@ -63,12 +63,12 @@ void pint_opcode(stack_t **stack, unsigned int UNUSE line_number)
  */
 void pop_opcode(stack_t **stack, unsigned int UNUSE line_number)
 {
-	stack_t *curr;
+	stack_t *current;
 
-	curr = stack_pop(stack);
-	if (!curr)
+	current = stack_pop(stack);
+	if (!current)
 		monty_exit_msg("can't pop an empty stack");
-	free(curr);
+	free(current);
 }
 
 /**

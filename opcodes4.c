@@ -27,7 +27,7 @@ void queue_opcode(UNUSE stack_t **stack, unsigned int UNUSE line_number)
 }
 
 /**
- * nop_opcode - do no thing
+ * nop_opcode - do no ting
  * @stack: pointer to the stack head
  * @line_number: the current line number
  */

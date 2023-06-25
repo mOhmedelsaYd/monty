@@ -10,14 +10,14 @@
  */
 void pchar_opcode(stack_t **stack, unsigned int UNUSE line_number)
 {
-	stack_t *a;
+	stack_t *p;
 
-	a = stack_top(stack);
-	if (!a)
+	p = stack_top(stack);
+	if (!p)
 		monty_exit_msg("can't pchar, stack empty");
-	if (a->n < 0 || a->n >= 128)
+	if (p->n < 0 || p->n >= 128)
 		monty_exit_msg("can't pchar, value out of range");
-	printf("%c\n", a->n);
+	printf("%c\n", p->n);
 }
 
 /**

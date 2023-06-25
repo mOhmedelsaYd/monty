@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * stack_top - get the latest stack node
+ * stack_top - get the latest
  * @stack: pointer to the stack head
- * Return: the address of the node otherwise NULL on fail
+ * Return: the address of the node
  */
 stack_t *stack_top(stack_t **stack)
 {
@@ -48,7 +48,7 @@ stack_t *stack_push(stack_t **stack, int n)
 }
 
 /**
- * stack_pop - pop a node from the end of the stack
+ * stack_pop - pop a node from the end
  * @stack: pointer to the head of the stack
  *
  * Description:
@@ -77,7 +77,7 @@ stack_t *stack_pop(stack_t **stack)
 
 /**
  * stack_free - free the stack
- * @stack: pointer to the stack head node
+ * @stack: pointer to the stack head ode
  */
 void stack_free(stack_t **stack)
 {

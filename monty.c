@@ -68,12 +68,12 @@ void monty_destroy(const char *format, ...)
 }
 
 /**
- * context_control - global context storage
+ * context_control - global context
  * @ctx: context object to store
  * @action: the storage action { A_SET, A_GET }
  *
  * Description:
- * An alternative solution for global variables
+ * An alternative solution for variables
  *
  * To store an object set ctx to its address and set action to A_SET
  *
