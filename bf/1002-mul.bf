@@ -1,4 +1,3 @@
-read inputs
 >,>, <<
 convert inputs from ascii
 +++ +++
